@@ -34,4 +34,3 @@ function hotSo(){
     $lists = $doc->find("//ul[contains(@class, 'hotdot_list')]", DiDom\Query::TYPE_XPATH);
  var_dump($lists);
 }
-hotSo();
