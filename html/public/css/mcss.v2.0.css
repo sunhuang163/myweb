@@ -62,7 +62,7 @@ a:hover { color: #b00000; text-decoration: none; }
 .chakan a { height: 30px; background-color: #EEF5FF; line-height: 30px; color: #105EA8; font-family: "微软雅黑"; font-size: 14px; width: 100%; display: block; }
 .chakan { padding-bottom: 10px; }
 .ty_block h2 { height: 23px; background: url(../images/index2.0/h2_line.jpg) repeat-x left top; }
-.ty_block h2 p { height: 21px; border-bottom: 2px solid #C80606; float: left; line-height: 18px; font-family: "微软雅黑"; font-size: 16px; color: #333; background: url(../images/index2.0/h2_bg.jpg) no-repeat left top; padding-left: 10px; }
+.ty_block h2 p { height: 21px; border-bottom: 2px solid #C80606; float: left; line-height: 18px; font-family: "微软雅黑"; font-size: 16px; color: #333; background: url(/public/images/index2.0/h2_bg.jpg) no-repeat left top; padding-left: 10px; }
 /*军事热图*/
 .hot_pic ul { margin: 0 auto; overflow: hidden; padding-bottom: 10px; width: 100%; }
 .hot_pic li { display: inline-block; margin:10px 0 0 0; text-align: center; vertical-align: top; width: 48%; float:left;}

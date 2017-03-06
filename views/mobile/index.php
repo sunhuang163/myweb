@@ -65,7 +65,7 @@
 <body isshowtip="false" isloadjs="true">
 <div id="warp">
     <div id="top">
-        <div id="logo"><a href="/""><img src="/public/images/logo.png" alt="<?php echo $title;?>" /></a></div>
+        <div id="logo"><a href="/""><?php echo $title;?></a></div>
 
     </div>
 </div>

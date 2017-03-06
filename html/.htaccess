@@ -1,8 +1,7 @@
 
 
 RewriteEngine On
-ErrorDocument 404 /404.php
-#RewriteRule ^/(*)$ index2.php/$1
-RewriteRule ^b/(.*).html$ b.php?c=baidu&id=$1 [L]
+ErrorDocument 404 /404.html
+order deny,allow
 RewriteRule ^c/(.*).html$ c.php?id=$1 [L]
 
