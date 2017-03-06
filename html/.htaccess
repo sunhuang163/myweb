@@ -1,0 +1,8 @@
+
+
+RewriteEngine On
+ErrorDocument 404 /404.html
+#RewriteRule ^/(*)$ index2.php/$1
+RewriteRule ^b/(.*).html$ b.php?c=baidu&id=$1 [L]
+RewriteRule ^c/(.*).html$ c.php?id=$1 [L]
+

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; outline: none; border-collapse: collapse }
+ul, li { margin: 0; padding: 0; text-align: left }
+li { list-style: none }
+body { margin: 0; padding: 0; background-color: #FFF; font: 12px "宋体"; margin: 0; -webkit-font-smoothing: antialiased; }
+img { border: 0; display: block; width: 100%; height: 100%; }
+li { list-style: none }
+.clear { clear: both }
+html { font-size: 62.5%; font-family: "Microsoft YaHei", SimHei, sans-serif, Helvetica; }
+html * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+body, nav, dl, dt, dd, p, h1, h2, h3, h4, ul, ol, li, input, button, textarea, footer, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit }
+body { font: 1.4rem/1.5 'Microsoft Yahei'; color: #333; background: #fff; -webkit-text-size-adjust: none; min-width: 320px; overflow-x: hidden; }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+form { display: inline }
+ul, ol { list-style: none }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+a { color: #444; text-decoration: none; background-color: transparent; }
+a:hover, a:active, a:link, a:visited { outline: none; text-decoration: none; }
+img { vertical-align: middle; border: 0; max-width: 100% }
+.clear { clear: both; line-height: 0; overflow: hidden; height: 0; }
+.fl { float: left; }
+.fr { float: right; }
+.hide { display: none; }
+.show { display: block; }
+/*head*/
+.vertical_scroll_wrap { position: relative; overflow: hidden; }
+.scroll_handle { position: absolute; bottom: 6px; width:80px; left: 50%; height: 6px; margin-left: -18px; z-index:99; }
+.scroll_handle li { width: 4px; height: 4px; border: 1px solid #ccc; border-radius: 50%; margin: 0 3px; float: left; }
+#verticalScroll { position: absolute; top: 0; left: 0; padding: 0; width:500%; max-width:500%;background-color: #E3E4E3; }
+#verticalScroll .infeedAlbum { width:20%; padding: .5em !important; }
+/*带图文章纵向列表*/
+.articleList_wrap { width: 96%; margin: 0 auto; padding: 0; overflow-x: hidden; }
+.articleList { overflow-x: hidden; }
+.articleList dd { position: relative; padding: .875em 0; width: 100%; height: inherit; box-sizing: border-box; }
+.articleList dd:focus, .articleList dd:hover, .articleList dd:active { background-color: #f2f2f2; }
+.articleList dd.borderTop { border: 1px solid #ECECEC; }
+.articleList dd.borderNone { border: none 0; }
+
+/*三图*/
+.infeedAlbum { width: 100%; display: table; }
+.infeedAlbum h4 { margin-bottom: 0.3em; font-size: 1.6rem; line-height: 1.25em; height: 1.25em; overflow: hidden; text-align: left; }
+.infeedAlbum ul { height: inherit;}
+.infeedAlbum li { width: 30.3%;}
+.infeedAlbum li:first-child { margin-right: 4.5%;}
+.infeedAlbum li img { width: 100%;}
+.infeedAlbum .article_info { margin-top: 0.5em;}
+
+
